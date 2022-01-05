@@ -1,0 +1,1 @@
+docker run --name mariadb -d -e MARIADB_ROOT_PASSWORD=mariadbrootpwd -v mariadb_vol:/var/lib/mysql -p 3307:3306 mariadb:10.6
